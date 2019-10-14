@@ -12,8 +12,8 @@ namespace XamarinAzureChallenge.ViewModels
 {
     public class UserDataViewModel : BaseViewModel
     {
-#error Missing Azure Function Endpoint Url. Replace "Enter Your Function API Url Here" with your Azure Function Endopint Url
-        const string endpoint = "Enter Your Function API Url Here";
+//#error Missing Azure Function Endpoint Url. Replace "Enter Your Function API Url Here" with your Azure Function Endopint Url
+        const string endpoint = "https://xamarinazurechallenge-elliotruiz.azurewebsites.net/api/SubmitChallengeFunction?code=R7SO07YP5LmQo0T00pZ3ZZ19GyR5GS9mk2HiBC4Me6qtcla5TrXi1A==";
         readonly Lazy<HttpClient> clientHolder = new Lazy<HttpClient>();
 
         User user = new User();

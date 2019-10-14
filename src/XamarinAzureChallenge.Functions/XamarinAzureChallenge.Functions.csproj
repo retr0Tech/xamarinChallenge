@@ -27,6 +27,8 @@
       <Folder Include="Services\" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\XamarinAzureChallenge.Shared\XamarinAzureChallenge.Shared.csproj" />
+      <ProjectReference Include="..\XamarinAzureChallenge.Shared\XamarinAzureChallenge.Shared.csproj">
+        <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+      </ProjectReference>
     </ItemGroup>
 </Project>
